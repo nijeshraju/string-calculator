@@ -1,5 +1,6 @@
 function add(numbers) {
-    return numbers === "" ? 0 : Number(numbers);
+    if (numbers === "") return 0;
+    return Number(numbers);
 }
 
 module.exports = add;

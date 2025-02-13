@@ -1,0 +1,14 @@
+{
+  "name": "string-calculator_1",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://nijeshraju@github.com/nijeshraju/string-calculator.git",
+  "author": "nijeshraju <nijeshrajuk007@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "test": "jest"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0"
+  }
+}

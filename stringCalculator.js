@@ -16,10 +16,7 @@ function add(numbers) {
         throw new Error(`negative numbers not allowed ${negatives.join(",")}`);
     }
 
-    return numbers
-        .split(delimiter)
-        .map(Number)
-        .reduce((sum, num) => sum + num, 0);
+    return numArray.reduce((sum, num) => sum + num, 0);
 }
 
 module.exports = add;
